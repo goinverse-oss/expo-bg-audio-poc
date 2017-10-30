@@ -1,3 +1,31 @@
+# PoC: React Native + Expo + Background Audio
+
+## Quickstart - iOS
+
+First, install some dependencies:
+```
+$ git clone <url>
+$ yarn
+$ yarn global add exp
+$ sudo gem install cocoapods
+$ cd ios; pod install; cd ..
+```
+Then, open Xcode, open the project, and click the "Play" icon
+to build the app and install it on the simulator. (I think you'll only need to do this once.)
+Ignore any error you see in the simulator; for some reason the initial URL is wrong.
+
+Next, run `exp start` in one terminal. Once it says "Expo is ready" and prints a URL,
+run `exp ios` in another terminal. On the simulator, you should get a prompt to open
+something in 'expo-audio-poc' or similar; confirm this. The app should launch, build the
+javascript bundle, download the bundle, and display a play icon. Tap it. 😎
+
+Leave the app. The audio should keep playing. (I haven't tested this on a device yet.)
+
+Note that this project was ejected using `yarn run eject`. The below generated
+README still may apply in some limited form; use at your own risk.
+
+----
+
 This project was bootstrapped with [Create React Native App](https://github.com/react-community/create-react-native-app).
 
 Below you'll find information about performing common tasks. The most recent version of this guide is available [here](https://github.com/react-community/create-react-native-app/blob/master/react-native-scripts/template/README.md).
