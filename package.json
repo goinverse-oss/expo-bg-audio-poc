@@ -14,9 +14,10 @@
     "preset": "jest-expo"
   },
   "dependencies": {
+    "base-64": "^0.1.0",
     "expo": "^22.0.0",
-    "react": "16.0.0-beta.5",
+    "react": "16",
     "react-native": "https://github.com/expo/react-native/archive/sdk-22.0.0.tar.gz",
-    "react-native-audio-streaming": "^2.3.2"
+    "react-native-audio-streaming": "https://github.com/tlenclos/react-native-audio-streaming.git#2a4a95784426e55cc16e7acfd38c683b7d87f233"
   }
 }

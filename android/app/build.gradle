@@ -57,7 +57,7 @@ dependencies {
   compile 'com.android.support:appcompat-v7:25.3.1'
   compile 'com.android.support:multidex:1.0.1'
 
-  
+
   compile('host.exp.exponent:expoview:22.0.0@aar') {
     exclude group: 'com.facebook.android', module: 'facebook-android-sdk'
     exclude group: 'com.facebook.android', module: 'audience-network-sdk'
@@ -74,6 +74,7 @@ dependencies {
   compile('io.nlopez.smartlocation:library:3.2.11') {
     transitive = false
   }
-  
-  
+
+  compile project(':react-native-audio-streaming')
+
 }
