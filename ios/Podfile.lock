@@ -1,0 +1,225 @@
+PODS:
+  - Amplitude-iOS (3.14.1)
+  - Analytics (3.6.7)
+  - AppAuth (0.90.0)
+  - Bolts (1.8.4):
+    - Bolts/AppLinks (= 1.8.4)
+    - Bolts/Tasks (= 1.8.4)
+  - Bolts/AppLinks (1.8.4):
+    - Bolts/Tasks
+  - Bolts/Tasks (1.8.4)
+  - boost (1.59.0):
+    - boost/graph-includes (= 1.59.0)
+    - boost/math-includes (= 1.59.0)
+    - boost/numeric-includes (= 1.59.0)
+    - boost/pointer_cast-includes (= 1.59.0)
+    - boost/preprocessor-includes (= 1.59.0)
+    - boost/shared_ptr-includes (= 1.59.0)
+    - boost/string_algorithms-includes (= 1.59.0)
+  - boost/graph-includes (1.59.0)
+  - boost/math-includes (1.59.0)
+  - boost/numeric-includes (1.59.0)
+  - boost/pointer_cast-includes (1.59.0)
+  - boost/preprocessor-includes (1.59.0)
+  - boost/shared_ptr-includes (1.59.0)
+  - boost/string_algorithms-includes (1.59.0)
+  - Branch (0.14.12):
+    - Branch/Core (= 0.14.12)
+    - Branch/without-IDFA (= 0.14.12)
+  - Branch/Core (0.14.12)
+  - Branch/without-IDFA (0.14.12)
+  - CocoaLumberjack (3.2.1):
+    - CocoaLumberjack/Default (= 3.2.1)
+    - CocoaLumberjack/Extensions (= 3.2.1)
+  - CocoaLumberjack/Default (3.2.1)
+  - CocoaLumberjack/Extensions (3.2.1):
+    - CocoaLumberjack/Default
+  - Crashlytics (3.9.0):
+    - Fabric (~> 1.7.0)
+  - DoubleConversion (1.1.5)
+  - ExpoKit/Core (2.0.4):
+    - Amplitude-iOS (~> 3.8)
+    - Analytics (~> 3.5)
+    - AppAuth (~> 0.4)
+    - Branch (~> 0.14.12)
+    - CocoaLumberjack (~> 3.2.1)
+    - Crashlytics (~> 3.8)
+    - Fabric (~> 1.6)
+    - FBAudienceNetwork (~> 4.24)
+    - FBSDKCoreKit (~> 4.15)
+    - FBSDKLoginKit (~> 4.15)
+    - FBSDKShareKit (~> 4.15)
+    - Google-Mobile-Ads-SDK (~> 7.22.0)
+    - GoogleMaps (~> 2.2.0)
+    - GoogleSignIn (~> 3.0)
+    - GPUImage (~> 0.1.7)
+    - lottie-ios (~> 2.1.3)
+  - ExpoKit/CPP (2.0.4):
+    - ExpoKit/Core
+  - Fabric (1.7.1)
+  - FBAudienceNetwork (4.26.0):
+    - KVOController
+  - FBSDKCoreKit (4.27.1):
+    - Bolts (~> 1.7)
+  - FBSDKLoginKit (4.27.1):
+    - FBSDKCoreKit
+  - FBSDKShareKit (4.27.1):
+    - FBSDKCoreKit
+  - Folly (2016.09.26.00):
+    - boost
+    - DoubleConversion
+    - GLog
+  - GLog (0.3.4)
+  - Google-Mobile-Ads-SDK (7.22.0)
+  - GoogleAppUtilities (1.1.2):
+    - GoogleSymbolUtilities (~> 1.1)
+  - GoogleAuthUtilities (2.0.2):
+    - GoogleNetworkingUtilities (~> 1.2)
+    - GoogleSymbolUtilities (~> 1.1)
+  - GoogleMaps (2.2.0):
+    - GoogleMaps/Maps (= 2.2.0)
+  - GoogleMaps/Base (2.2.0)
+  - GoogleMaps/Maps (2.2.0):
+    - GoogleMaps/Base
+  - GoogleNetworkingUtilities (1.2.2):
+    - GoogleSymbolUtilities (~> 1.1)
+  - GoogleSignIn (3.0.0):
+    - GoogleAppUtilities (~> 1.0)
+    - GoogleAuthUtilities (~> 2.0)
+    - GoogleNetworkingUtilities (~> 1.0)
+    - GoogleUtilities (~> 1.0)
+  - GoogleSymbolUtilities (1.1.2)
+  - GoogleUtilities (1.3.2):
+    - GoogleSymbolUtilities (~> 1.1)
+  - GPUImage (0.1.7)
+  - KVOController (1.2.0)
+  - lottie-ios (2.1.3)
+  - React/ART (0.49.3):
+    - React/Core
+  - React/Core (0.49.3):
+    - yoga (= 0.49.3.React)
+  - React/CxxBridge (0.49.3):
+    - Folly (= 2016.09.26.00)
+    - React/Core
+    - React/cxxreact
+  - React/cxxreact (0.49.3):
+    - boost
+    - Folly (= 2016.09.26.00)
+    - React/jschelpers
+  - React/DevSupport (0.49.3):
+    - React/Core
+    - React/RCTWebSocket
+  - React/fishhook (0.49.3)
+  - React/jschelpers (0.49.3):
+    - Folly (= 2016.09.26.00)
+  - React/RCTActionSheet (0.49.3):
+    - React/Core
+  - React/RCTAnimation (0.49.3):
+    - React/Core
+  - React/RCTBlob (0.49.3):
+    - React/Core
+  - React/RCTCameraRoll (0.49.3):
+    - React/Core
+    - React/RCTImage
+  - React/RCTGeolocation (0.49.3):
+    - React/Core
+  - React/RCTImage (0.49.3):
+    - React/Core
+    - React/RCTNetwork
+  - React/RCTNetwork (0.49.3):
+    - React/Core
+  - React/RCTText (0.49.3):
+    - React/Core
+  - React/RCTVibration (0.49.3):
+    - React/Core
+  - React/RCTWebSocket (0.49.3):
+    - React/Core
+    - React/fishhook
+    - React/RCTBlob
+  - RNAudioStreaming (2.3.2):
+    - RNAudioStreaming/Main (= 2.3.2)
+  - RNAudioStreaming/Main (2.3.2):
+    - RNAudioStreaming/StreamingKit
+  - RNAudioStreaming/StreamingKit (2.3.2)
+  - yoga (0.49.3.React)
+
+DEPENDENCIES:
+  - DoubleConversion (from `../node_modules/react-native/third-party-podspecs/DoubleConversion.podspec`)
+  - ExpoKit/Core (from `http://github.com/expo/expo.git`, tag `ios/2.0.4`)
+  - ExpoKit/CPP (from `http://github.com/expo/expo.git`, tag `ios/2.0.4`)
+  - Folly (from `../node_modules/react-native/third-party-podspecs/Folly.podspec`)
+  - GLog (from `../node_modules/react-native/third-party-podspecs/GLog.podspec`)
+  - React/ART (from `../node_modules/react-native`)
+  - React/Core (from `../node_modules/react-native`)
+  - React/CxxBridge (from `../node_modules/react-native`)
+  - React/DevSupport (from `../node_modules/react-native`)
+  - React/RCTActionSheet (from `../node_modules/react-native`)
+  - React/RCTAnimation (from `../node_modules/react-native`)
+  - React/RCTCameraRoll (from `../node_modules/react-native`)
+  - React/RCTGeolocation (from `../node_modules/react-native`)
+  - React/RCTImage (from `../node_modules/react-native`)
+  - React/RCTNetwork (from `../node_modules/react-native`)
+  - React/RCTText (from `../node_modules/react-native`)
+  - React/RCTVibration (from `../node_modules/react-native`)
+  - React/RCTWebSocket (from `../node_modules/react-native`)
+  - RNAudioStreaming (from `../node_modules/react-native-audio-streaming`)
+  - yoga (from `../node_modules/react-native/ReactCommon/yoga`)
+
+EXTERNAL SOURCES:
+  DoubleConversion:
+    :podspec: ../node_modules/react-native/third-party-podspecs/DoubleConversion.podspec
+  ExpoKit:
+    :git: http://github.com/expo/expo.git
+    :tag: ios/2.0.4
+  Folly:
+    :podspec: ../node_modules/react-native/third-party-podspecs/Folly.podspec
+  GLog:
+    :podspec: ../node_modules/react-native/third-party-podspecs/GLog.podspec
+  React:
+    :path: ../node_modules/react-native
+  RNAudioStreaming:
+    :path: ../node_modules/react-native-audio-streaming
+  yoga:
+    :path: ../node_modules/react-native/ReactCommon/yoga
+
+CHECKOUT OPTIONS:
+  ExpoKit:
+    :git: http://github.com/expo/expo.git
+    :tag: ios/2.0.4
+
+SPEC CHECKSUMS:
+  Amplitude-iOS: 4a3c8807b2ea5369dc11e87e23825bff01e5a922
+  Analytics: 2c09a50e3478a3a7ced08a22d00c43ba6f7011e6
+  AppAuth: f0bc91f392ab9eb1cf3150b26d5d7f326fc7c04d
+  Bolts: 8a7995239dbe724f9cba2248b766d48b7ebdd322
+  boost: 30a15ffb6d9aa4646dd3caffc960753f4cb4ca4e
+  Branch: f63d9cf82ac09747349a73184a0b739d28781c4d
+  CocoaLumberjack: 2800c03334042fe80589423c8d80e582dcaec482
+  Crashlytics: 64aad5dd97249dd3ff94b979fea140144590cdd3
+  DoubleConversion: ebb6747c5b66026ad4f97b789c3ceac6f18e57a6
+  ExpoKit: a432d76fead1a5f954e016f6e9f56e22fc617908
+  Fabric: c7cfc652f036180a72fe2539646c8a624420419d
+  FBAudienceNetwork: c3488041a9aa3f716d2edb3ceec8929e54c8f95a
+  FBSDKCoreKit: 03365dad5d790249196ffad8be4f6d8a2d98f932
+  FBSDKLoginKit: 66ff53b73cffd967ab773e32fac39e90a60e6d46
+  FBSDKShareKit: 6a6a0ef9e850c741e4e1d7a7d21335205e997ec1
+  Folly: b7255b29f1d693c375d642d0f04f0592181156d9
+  GLog: 3e4e4ae9746ce6bf6e9420c7fc1e08ad59c8ba1a
+  Google-Mobile-Ads-SDK: 1bdf1a4244d0553b1840239874c209c01aef055f
+  GoogleAppUtilities: a8a552aa74f6597f805e45b5a3962766c3134973
+  GoogleAuthUtilities: ccad2e0a9284699973ff57c0dd24c3893657fda4
+  GoogleMaps: 104c418d61ab8a05dff06ed0784c25ea9d37da45
+  GoogleNetworkingUtilities: 3edd3a8161347494f2da60ea0deddc8a472d94cb
+  GoogleSignIn: 3d571172b8603be39dcb1705d8217146bb76fe62
+  GoogleSymbolUtilities: 631ee17048aa5e9ab133470d768ea997a5ef9b96
+  GoogleUtilities: 8bbc733218aad26306f9d4a253823986110e3358
+  GPUImage: 733a5f0fab92df9de1c37ba9df520a833ccb406d
+  KVOController: d72ace34afea42468329623b3379ab3cd1d286b6
+  lottie-ios: 8c150606598931621e927377f1426d2d3e99282d
+  React: 5751f5630c58f7ef31a00cf03044878295bceff0
+  RNAudioStreaming: ef6e45c6b4c619930e00709a42c8d8ae5c666826
+  yoga: 6e56575501ecea04196f9c9f08b90cf97cd5da24
+
+PODFILE CHECKSUM: fa0c6a2c3defe8ab66f1eb4f8a8a719a0ba5a53f
+
+COCOAPODS: 1.3.1

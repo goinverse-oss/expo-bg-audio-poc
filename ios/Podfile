@@ -38,6 +38,8 @@ target 'expo-audio-poc' do
   pod 'GLog',
     :podspec => "../node_modules/react-native/third-party-podspecs/GLog.podspec",
     :inhibit_warnings => true
+  pod 'RNAudioStreaming',
+    :path => '../node_modules/react-native-audio-streaming'
 
 
   post_install do |installer|

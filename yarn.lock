@@ -3430,6 +3430,10 @@ react-devtools-core@^2.5.0:
     shell-quote "^1.6.1"
     ws "^2.0.3"
 
+react-native-audio-streaming@^2.3.2:
+  version "2.3.2"
+  resolved "https://registry.yarnpkg.com/react-native-audio-streaming/-/react-native-audio-streaming-2.3.2.tgz#3f25b61c13a8093d67001cdb5d458fc5a3185835"
+
 react-native-branch@2.0.0-beta.3:
   version "2.0.0-beta.3"
   resolved "https://registry.yarnpkg.com/react-native-branch/-/react-native-branch-2.0.0-beta.3.tgz#2167af86bbc9f964bd45bd5f37684e5b54965e32"
