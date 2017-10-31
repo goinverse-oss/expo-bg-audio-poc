@@ -10,7 +10,7 @@ $ yarn global add exp
 $ sudo gem install cocoapods
 $ cd ios; pod install; cd ..
 ```
-Then, open Xcode, open the project, and click the "Play" icon
+Then, open Xcode, open `ios/expo-audio-poc.xcworkspace`, and click the "Play" icon
 to build the app and install it on the simulator. (I think you'll only need to do this once.)
 Ignore any error you see in the simulator; for some reason the initial URL is wrong.
 
