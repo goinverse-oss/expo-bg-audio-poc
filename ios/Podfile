@@ -40,6 +40,8 @@ target 'expo-audio-poc' do
     :inhibit_warnings => true
   pod 'RNAudioStreaming',
     :path => '../node_modules/react-native-audio-streaming'
+  pod 'RNSound',
+    :path => '../node_modules/react-native-sound'
 
 
   post_install do |installer|

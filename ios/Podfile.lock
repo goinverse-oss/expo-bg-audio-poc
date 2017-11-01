@@ -141,6 +141,11 @@ PODS:
   - RNAudioStreaming/Main (2.3.2):
     - RNAudioStreaming/StreamingKit
   - RNAudioStreaming/StreamingKit (2.3.2)
+  - RNSound (0.10.4):
+    - React/Core
+    - RNSound/Core (= 0.10.4)
+  - RNSound/Core (0.10.4):
+    - React/Core
   - yoga (0.49.3.React)
 
 DEPENDENCIES:
@@ -163,6 +168,7 @@ DEPENDENCIES:
   - React/RCTVibration (from `../node_modules/react-native`)
   - React/RCTWebSocket (from `../node_modules/react-native`)
   - RNAudioStreaming (from `../node_modules/react-native-audio-streaming`)
+  - RNSound (from `../node_modules/react-native-sound`)
   - yoga (from `../node_modules/react-native/ReactCommon/yoga`)
 
 EXTERNAL SOURCES:
@@ -179,6 +185,8 @@ EXTERNAL SOURCES:
     :path: ../node_modules/react-native
   RNAudioStreaming:
     :path: ../node_modules/react-native-audio-streaming
+  RNSound:
+    :path: ../node_modules/react-native-sound
   yoga:
     :path: ../node_modules/react-native/ReactCommon/yoga
 
@@ -218,8 +226,9 @@ SPEC CHECKSUMS:
   lottie-ios: 8c150606598931621e927377f1426d2d3e99282d
   React: 5751f5630c58f7ef31a00cf03044878295bceff0
   RNAudioStreaming: ef6e45c6b4c619930e00709a42c8d8ae5c666826
+  RNSound: dcbb42c698757ee4fa9a8528317c40d18a5deb1b
   yoga: 6e56575501ecea04196f9c9f08b90cf97cd5da24
 
-PODFILE CHECKSUM: fa0c6a2c3defe8ab66f1eb4f8a8a719a0ba5a53f
+PODFILE CHECKSUM: 5f315a3a43d27d6343d2b1ecc403f464dca02613
 
 COCOAPODS: 1.3.1

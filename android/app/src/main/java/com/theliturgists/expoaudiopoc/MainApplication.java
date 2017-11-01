@@ -5,6 +5,7 @@ import android.support.multidex.MultiDexApplication;
 import com.facebook.react.ReactPackage;
 
 import com.audioStreaming.ReactNativeAudioStreamingPackage;
+import com.zmxv.RNSound.RNSoundPackage;
 
 import java.util.Arrays;
 import java.util.List;
@@ -23,7 +24,8 @@ public class MainApplication extends MultiDexApplication {
         // Needed for `react-native link`
         // new MainReactPackage()
 
-        new ReactNativeAudioStreamingPackage()
+        new ReactNativeAudioStreamingPackage(),
+        new RNSoundPackage()
     );
   }
 }

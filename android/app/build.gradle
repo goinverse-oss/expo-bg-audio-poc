@@ -77,5 +77,6 @@ dependencies {
   }
 
   compile project(':react-native-audio-streaming')
+  compile project(':react-native-sound')
 
 }

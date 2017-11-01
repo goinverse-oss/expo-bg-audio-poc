@@ -18,6 +18,7 @@
     "expo": "^22.0.0",
     "react": "16",
     "react-native": "https://github.com/expo/react-native/archive/sdk-22.0.0.tar.gz",
-    "react-native-audio-streaming": "https://github.com/tlenclos/react-native-audio-streaming.git#2a4a95784426e55cc16e7acfd38c683b7d87f233"
+    "react-native-audio-streaming": "https://github.com/tlenclos/react-native-audio-streaming.git#2a4a95784426e55cc16e7acfd38c683b7d87f233",
+    "react-native-sound": "^0.10.4"
   }
 }
