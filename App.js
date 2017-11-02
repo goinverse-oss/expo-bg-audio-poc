@@ -1,5 +1,5 @@
 import React from 'react';
-import { StyleSheet, Text, View, Button } from 'react-native';
+import { StyleSheet, Text, View, Button, Alert } from 'react-native';
 
 import { ReactNativeAudioStreaming } from 'react-native-audio-streaming';
 import RNSound from 'react-native-sound';
@@ -15,6 +15,7 @@ class PlayButton extends React.Component {
       isPlaying: false,
       isLoading: false,
       isPaused: false,
+      error: null,
     };
     this.sound = null;
 
@@ -38,9 +39,13 @@ class PlayButton extends React.Component {
       this.sound = new RNSound(this.props.url, undefined, (error) => {
         this.setState({ isLoading: false });
         if (error) {
-          console.log('error: ' + error);
-          throw error;
+          console.log('error: ' + error.message);
+          this.sound.release();
+          this.sound = null;
+          this.setState({ error: error, isPlaying: false });
+          return;
         }
+        this.setState({ error: null });
         console.log('loaded sound');
         this.sound.play(() => {
           this.setState({ isPlaying: false });
@@ -89,6 +94,15 @@ class PlayButton extends React.Component {
           disabled={!(this.state.isPlaying || this.state.isPaused)}
           onPress={() => this.stopPlaying()}
         />
+        {
+          this.state.error
+          ? <Button
+              title="Error"
+              color="red"
+              onPress={() => Alert.alert(this.state.error.message)}
+            />
+          : null
+        }
       </View>
     );
   }
